@@ -25,35 +25,35 @@ def send_email(to_email, company_name, attachment_path):
     body = f"""
     Warm Greetings,
     
-    We are pleased to announce Hackanova 4.0, 4th edition of our flagship 36-hour National Level hackathon hosted by the TCET Student Development and Welfare Association (TSDW). Hackanova 4.0 is designed to test the skills of the brightest minds in technology and will be held from 21st to 22nd February 2025.
+    We are pleased to announce <strong>Hackanova 4.0</strong>, 4th edition of our flagship 36-hour <strong>National Level hackathon</strong> hosted by the <strong>TCET Student Development and Welfare Association (TSDW)</strong>. Hackanova 4.0 is designed to test the skills of the brightest minds in technology and will be held from <strong>21st to 22nd February 2025.</strong>
     
-    The theme of the event is "Redefining the Norms through Intelligence."
-    Hackanova 4.0 focuses on trending technologies like Artificial Intelligence, Machine Learning, and Blockchain, empowering participants to address real-world challenges. The event will feature an online selection round on Devfolio, followed by an offline finale at Thakur College of Engineering and Technology, Mumbai.
+    The theme of the event is "<strong>Redefining the Norms through Intelligence.</strong>"
+    Hackanova 4.0 focuses on trending technologies like <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, and <strong>Blockchain</strong>, empowering participants to address real-world challenges. The event will feature an <strong>online selection round on Devfolio</strong>, followed by an <strong>offline finale at Thakur College of Engineering and Technology, Mumbai.</strong>
     
-    Event Highlights:
-    - Dates: 21st and 22nd February 2025
-    - Duration: 36 hours
-    - Participants: Top tech enthusiasts from institutions across India
+    <strong>Event Highlights:</strong>
+    - <strong>Dates:</strong> 21st and 22nd February 2025
+    - <strong>Duration:</strong> 36 hours
+    - <strong>Participants:</strong> Top tech enthusiasts from institutions across India
     
-    Why collaborate with us?
+    <strong>Why collaborate with us?</strong>
     - Expected registration of 850+ on Devfolio based on past engagement we received for previous editions.
     - Prizes worth ₹ 80,000+ to be awarded.
     - Option to access the contact details of participants and winners for further interaction, funding opportunities, and prospecting for interns.
     
-    About TCET and TSDW:
+    <strong>About TCET and TSDW:</strong>
     TCET is a graded autonomous institute affiliated with the University of Mumbai and recognized by AICTE. It has a strong legacy of hosting impactful events like Hackanova, Zephyr, and Leadership Summits, managed by the student-driven TSDW.
     
-    Previous Sponsors:
+    <strong>Previous Sponsors:</strong>
     Hackanova has been fortunate to collaborate with industry-leading brands in its previous editions, including:
-    Replit, Taskade, Interview Buddy, Solana, Polygon, Digital Ocean, Filecoin, Devfolio, Newton School, FOSS United, .xyz, Nova Nova
+    <strong>Replit, Taskade, Interview Buddy, Solana, Polygon, Digital Ocean, Filecoin, Devfolio, Newton School, FOSS United, .xyz, Nova Nova</strong>
     
     We are truly inspired by your company's unwavering commitment to innovation and believe a partnership with {company_name} would elevate Hackanova 4.0 to even greater heights. We are looking for both monetary and in-kind sponsorship and would be grateful to have you as part of this event to make it more impactful.
     
     Looking forward to your response!
     
     Best regards,
-    TSDW-Technical Team.
-    Contact us: Dhyey Swadia – +91 9892439017
+    <strong>TSDW-Technical Team.</strong>
+    <strong>Contact us:</strong> Dhyey Swadia – +91 9892439017
     """
     
     msg = MIMEMultipart()
