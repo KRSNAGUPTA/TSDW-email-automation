@@ -1,0 +1,3 @@
+EMAIL_APP_PASSWORD ="Get app password from google"
+SENDER_EMAIL="your email"
+EMAIL_BODY_PATH=email-body.html
